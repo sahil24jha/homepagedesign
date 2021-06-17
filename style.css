@@ -1,0 +1,89 @@
+body{
+    background-image: url(beach.jpg);
+    background-size: cover;
+}
+
+.main{
+    display: block;
+
+}
+.header{
+    background-color: black;
+    display: block;
+}
+
+.header-content{
+    color: white; 
+    font-family: sans-serif;
+    font-size: 20px;
+    display:inline-block;
+    margin: 0px;
+    padding : 10px 10px;
+    
+}
+.header-login{
+    float : right;
+    display: inline;
+    padding : 10px 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.header-signin{
+    float: right;
+    background-color: white;
+    color: black;
+    display: inline;
+    padding : 10px 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px;    
+}
+
+.main-body{
+    background-color: black;
+    opacity: 0.5;
+    margin : auto;
+    margin-top: 150px;
+    width : 650px;
+    font-size : 10px;
+    padding : 5px;
+}
+.main-content{
+    color:white;
+   text-align: center;
+   padding : 5px;
+   margin-top : 10px;
+}
+
+.sign-up-button{
+    margin : 0 auto;
+    color : black;
+    margin-left: 280px;
+    background-color: white;
+    border: none;
+    font-weight : 300px;
+    padding : 15px 10px;
+    margin-bottom : 10px;
+}
+
+.navbar-bottom {
+    background-color: black;
+    color: white;  
+    bottom: 0;
+    position: fixed;
+    display: inline;
+    padding : 15px 350px;
+    width : 100%;
+    align-items: center;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color : white;
+    margin : 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding  : 5px;
+}
+    
